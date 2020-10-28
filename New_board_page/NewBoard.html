@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MyNewBoard</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h2>Create your TODO or any list you need.</h2> 
+        <div class="elOnBoardEditPage">  
+            <div class="elButtonsForEdit">
+                <div class="button newBoardButton" onclick="newBoard()">
+                    <h4>New Board</h4>
+                </div>
+                <div class="button addLineButton" onclick="addLine()">
+                    <h4>Add Line</h4>
+                </div>
+                <div class="button addListButton" onclick="addList()">
+                    <h4>Add List</h4>
+                </div>
+                <div class="button textColorButton" onclick="textColorChange()">
+                    <h4>Text Color</h4>
+                </div>
+                <div class="button deskColorButton" onclick="deskColorChange()">
+                    <h4>Desk Color</h4>
+                </div>
+            </div>
+            <div class="theBoard">
+                <div class="listArea">
+                </div>
+            </div>
+        </div> 
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
